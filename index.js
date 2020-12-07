@@ -20,10 +20,10 @@ function play(question,answer){
 }
 var highScore=[{
   name: "kamal",
-  score:"5"
+  score:" 4"
 },
 {name: "tushar",
-score: "4"}
+score: " 3"}
 ];
 
 
@@ -55,6 +55,7 @@ for(var i=0;i<quiz.length;i++){
 }
 console.log("Your FINAL score: "+ score);
 console.log("checkout the highscores: ");
+
 for(var j=0;j<highScore.length;j++)
 {
   console.log(highScore[j]);
